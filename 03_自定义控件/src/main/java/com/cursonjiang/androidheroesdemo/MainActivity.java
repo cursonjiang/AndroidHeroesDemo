@@ -35,4 +35,14 @@ public class MainActivity extends Activity {
         startActivity(new Intent(this, TopBarTest.class));
     }
 
+    public void btnCircleProgress(View view) {
+        mIntent.putExtra("flag", 3);
+        startActivity(mIntent);
+    }
+
+    public void btnVolumeView(View view) {
+        mIntent.putExtra("flag", 4);
+        startActivity(mIntent);
+    }
+
 }

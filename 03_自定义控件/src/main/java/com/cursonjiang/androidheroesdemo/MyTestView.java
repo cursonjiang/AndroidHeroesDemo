@@ -3,6 +3,8 @@ package com.cursonjiang.androidheroesdemo;
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.cursonjiang.androidheroesdemo.custom.CircleProgressView;
+
 /**
  * Created by 姜炳臣 on 2015/11/2.
  */
@@ -21,6 +23,14 @@ public class MyTestView extends Activity {
                 break;
             case 2:
                 setContentView(R.layout.shine_textview);
+                break;
+            case 3:
+                setContentView(R.layout.circle_progress);
+                CircleProgressView circleProgressView = (CircleProgressView) findViewById(R.id.circle);
+                circleProgressView.setSweepValue(60);
+                break;
+            case 4:
+                setContentView(R.layout.volume);
                 break;
             default:
                 break;
