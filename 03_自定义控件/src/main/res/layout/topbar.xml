@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cursonjiang.androidheroesdemo.custom.TopBar
+    android:id="@+id/topbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    custom:leftBackground="@drawable/blue_button"
+    custom:leftText="Back"
+    custom:leftTextColor="#ffffff"
+    custom:rightBackground="@drawable/blue_button"
+    custom:rightText="More"
+    custom:rightTextColor="#ffffff"
+    custom:titleTextColor="#123412"
+    custom:titleTextSize="8sp"
+    custom:topTitle="自定义标题栏">
+</com.cursonjiang.androidheroesdemo.custom.TopBar>
