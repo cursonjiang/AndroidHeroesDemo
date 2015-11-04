@@ -45,4 +45,9 @@ public class MainActivity extends Activity {
         startActivity(mIntent);
     }
 
+    public void btnMyScrollView(View view) {
+        mIntent.putExtra("flag", 5);
+        startActivity(mIntent);
+    }
+
 }

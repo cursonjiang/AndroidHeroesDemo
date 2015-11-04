@@ -32,6 +32,9 @@ public class MyTestView extends Activity {
             case 4:
                 setContentView(R.layout.volume);
                 break;
+            case 5:
+                setContentView(R.layout.my_scrollview);
+                break;
             default:
                 break;
         }
