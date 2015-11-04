@@ -104,17 +104,23 @@ public class MyScrollView extends ViewGroup {
                 int dScrollY = mEnd - mStart;
                 if (dScrollY > 0) {//大于0的时候，是向上滚动，
                     Log.i(TAG, "onTouchEvent: dScrollY > 0：" + dScrollY);
+                    //移动的距离小于屏幕的三分之一
                     if (dScrollY < mScroolHeight / 3) {
-                        mScroller.startScroll(0, getScrollY(), 0, -dScrollY);//滚动回原位置
+                        //滚动回原位置
+                        mScroller.startScroll(0, getScrollY(), 0, -dScrollY);
                     } else {
-                        mScroller.startScroll(0, getScrollY(), 0, mScroolHeight - dScrollY);//滚动到下一页
+                        //滚动到下一页
+                        mScroller.startScroll(0, getScrollY(), 0, mScroolHeight - dScrollY);
                     }
                 } else {//小于0的时候，是向下滚动
                     Log.i(TAG, "onTouchEvent: dScrollY < 0：" + dScrollY);
                     Log.i(TAG, "onTouchEvent: -dScrollY < 0：" + -dScrollY);
+                    //负负得正，向下滑动的距离小于屏幕的三分之一
                     if (-dScrollY < mScroolHeight / 3) {
+                        //滚动回原位置
                         mScroller.startScroll(0, getScrollY(), 0, -dScrollY);
                     } else {
+                        //滚动到下一页
                         mScroller.startScroll(0, getScrollY(), 0, -mScroolHeight - dScrollY);
                     }
                 }
@@ -124,6 +130,9 @@ public class MyScrollView extends ViewGroup {
         return true;
     }
 
+    /**
+     * 实时更新正在滚动的值
+     */
     @Override
     public void computeScroll() {
         super.computeScroll();
