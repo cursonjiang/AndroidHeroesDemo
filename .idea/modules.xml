@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/03_自定义控件/03_自定义控件.iml" filepath="$PROJECT_DIR$/03_自定义控件/03_自定义控件.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidHeroesDemo.iml" filepath="$PROJECT_DIR$/AndroidHeroesDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewDemo/ListViewDemo.iml" filepath="$PROJECT_DIR$/ListViewDemo/ListViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewLayout/ViewLayout.iml" filepath="$PROJECT_DIR$/ViewLayout/ViewLayout.iml" />
     </modules>
   </component>
 </project>
