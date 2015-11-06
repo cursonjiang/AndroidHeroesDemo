@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.cursonjiang.androidheroesdemo"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest
+    package="com.cursonjiang.androidheroesdemo"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -18,6 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".ListViewDemo"/>
+        <activity android:name=".ChatItemDemo.ChatItemListViewDemo"/>
     </application>
 
 </manifest>

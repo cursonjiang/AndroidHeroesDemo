@@ -2,19 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:gravity="center"
-              android:orientation="vertical">
+              android:gravity="center_vertical|right"
+              android:orientation="horizontal"
+              android:padding="10dp">
 
-    <Button
+    <TextView
+        android:id="@+id/text_out"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="btnListView"
-        android:text="ListViewDemo"/>
+        android:background="@drawable/chatitem_out_bg"
+        android:gravity="center"
+        android:textSize="16sp"/>
 
-    <Button
+    <ImageView
+        android:id="@+id/icon_out"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="btnChatDemo"
-        android:text="btnChatDemo"/>
-
+        android:src="@mipmap/in_icon"/>
 </LinearLayout>
