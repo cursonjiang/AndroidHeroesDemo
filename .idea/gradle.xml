@@ -10,8 +10,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/03_自定义控件" />
-            <option value="$PROJECT_DIR$/ListViewDemo" />
-            <option value="$PROJECT_DIR$/ViewLayout" />
+            <option value="$PROJECT_DIR$/04_ListViewDemo" />
+            <option value="$PROJECT_DIR$/05_ScrollDemo" />
           </set>
         </option>
       </GradleProjectSettings>
