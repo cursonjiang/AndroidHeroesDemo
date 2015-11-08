@@ -41,4 +41,10 @@
         android:onClick="btnDragDemo_5"
         android:text="btnDragDemo_5"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnViewDragHelperDemo"
+        android:text="ViewDragHelperDemo"/>
+
 </LinearLayout>

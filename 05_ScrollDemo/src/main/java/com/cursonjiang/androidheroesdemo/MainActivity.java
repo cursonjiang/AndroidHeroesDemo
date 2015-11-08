@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.cursonjiang.androidheroesdemo.ViewDragHelper.ViewDragGroupTest;
 import com.cursonjiang.androidheroesdemo.onTouchEvent.OnTouchEventDemo;
 import com.cursonjiang.androidheroesdemo.scroll.DragViewDemo;
 
@@ -49,6 +50,10 @@ public class MainActivity extends Activity {
     public void btnDragDemo_5(View view) {
         mIntent.putExtra("flag", 5);
         startActivity(mIntent);
+    }
+
+    public void btnViewDragHelperDemo(View view) {
+        startActivity(new Intent(this, ViewDragGroupTest.class));
     }
 
 
